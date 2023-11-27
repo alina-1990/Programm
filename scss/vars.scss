@@ -1,0 +1,28 @@
+$primary-color: #F7EBE5;
+$black-color:#292929;
+$pink-color:#FFC2CC;
+$blue-color:#6FD9FB;
+$white-color:#EDEDF0;
+
+
+%monseratregular-400{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+%monseratmedium-500{
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+%monseratlight-300 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+%monseratbold-600{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+%playfairbold-700 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}

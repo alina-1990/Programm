@@ -1,0 +1,23 @@
+@import "vars";
+@import "font";
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    @extend %monseratregular-400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: $black-color;
+  }
+
+.container {
+    padding: 0 40px;
+    max-width:1250px;
+    margin: 0 auto;
+  }
+  
+main {
+ background-color: #F7F7F7;
+}
+  

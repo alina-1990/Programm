@@ -1,0 +1,23 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #292929;
+}
+
+.container {
+  padding: 0 40px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #F7F7F7;
+}
