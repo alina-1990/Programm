@@ -642,6 +642,11 @@ html {
   background: #EDEDF0;
   height: 451px;
 }
+.care__item-img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
 .care__item-title {
   color: #292929;
   font-size: 18px;

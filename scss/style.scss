@@ -535,6 +535,11 @@ html {
  &__item {
   background: #EDEDF0;
   height: 451px;
+  &-img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
   &-title {
     color: $black-color;
     @extend %monseratbold-600;
