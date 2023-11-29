@@ -99,7 +99,7 @@ html {
 .btn-order a {
   padding: 10px 27px;
   border-radius: 3px;
-  border: 3px solid #FFC2CC;
+  border: 3px solid #6FD9FB;
   display: inline-block;
   color: #6FD9FB;
 }
@@ -442,6 +442,7 @@ html {
 }
 .promotion__item-img {
   width: 270px;
+  height: 178px;
 }
 .promotion__item-descr {
   color: #292929;
@@ -622,6 +623,7 @@ html {
   color: #292929;
   font-size: 14px;
   max-width: 300px;
+  height: 56px;
 }
 
 .care {
@@ -639,6 +641,11 @@ html {
 .care__item {
   background: #EDEDF0;
   height: 451px;
+}
+.care__item-img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
 .care__item-title {
   color: #292929;
@@ -762,13 +769,6 @@ html {
   }
   .top__slider-item {
     min-height: 386px;
-  }
-  .top__slider-title {
-    color: #bc2c2c;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
   }
   .top__slider-text {
     position: absolute;
@@ -984,6 +984,7 @@ html {
   display: none;
   background-color: #F7EBE5;
   height: 548px;
+  width: 377px;
 }
 
 .mobile-nav-button {
@@ -1020,7 +1021,7 @@ html {
     min-height: 550px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1220px) {
   .menu {
     display: none;
   }
@@ -1244,6 +1245,17 @@ html {
     font-size: 9px;
   }
 }
+@media (max-width: 884px) {
+  .news__item {
+    height: 381px;
+  }
+  .news__item-descr {
+    color: #292929;
+    font-size: 14px;
+    max-width: 166px;
+    height: 82px;
+  }
+}
 @media (max-width: 768px) {
   .cake__container {
     -ms-flex-wrap: wrap;
@@ -1271,6 +1283,7 @@ html {
   }
   .cake__catalog-descr {
     font-size: 14px;
+    margin-top: 20px;
   }
   .cake__catalog-title {
     text-align: center;
@@ -1381,9 +1394,6 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sets__item {
-    max-width: 219px;
-  }
   .care__item {
     max-width: 236px;
   }
@@ -1419,6 +1429,12 @@ html {
   }
   .btn__details {
     margin-top: 68px;
+  }
+  .sets__item-descr {
+    max-width: 157px;
+  }
+  .blog-wrap {
+    padding-left: 5px;
   }
 }
 @media (max-width: 475px) {
