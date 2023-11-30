@@ -303,13 +303,16 @@ html {
 .cake {
   margin-bottom: 100px;
 }
+.cake__bg {
+  background-color: rgba(41, 192, 202, 0.34);
+}
 .cake__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   position: relative;
-  background-color: rgba(41, 192, 202, 0.34);
+  max-width: 1440px;
 }
 .cake__container-text {
   padding-top: 98px;
@@ -342,10 +345,6 @@ html {
   font-size: 18px;
   max-width: 499px;
   text-align: center;
-}
-
-.cake__bg {
-  max-width: 1920px;
 }
 
 .img-two {
