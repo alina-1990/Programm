@@ -29,13 +29,38 @@ $(function () {
   });
 });
 
+
+
+
+
+
 //burger это
 const mobileNavButton = document.querySelector('.mobile-nav-button');
 const mobileNavIcon = document.querySelector('.mobile-nav-button__icon');
 const mobileNav = document.querySelector('.mobile-nav');
+const header = document.querySelector('.header');
+const all = document.querySelector('.validation');
+
 
 mobileNavButton.addEventListener('click', function () {
+  header.classList.toggle('bg');
   mobileNavIcon.classList.toggle('active');
   mobileNav.classList.toggle('active');
-  document.body.classList.toggle('no-scroll');
+  header.classList.toggle('blue');
+  all.classList.toggle('validation');
+  all.classList.toggle('validation-one');
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+

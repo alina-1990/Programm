@@ -1,28 +1,27 @@
-$primary-color: #F7EBE5;
-$black-color:#292929;
-$pink-color:#FFC2CC;
-$blue-color:#6FD9FB;
-$white-color:#EDEDF0;
+$default-color: #22253B;
+$red-color: #FF501F;
+$white-color: #FFF;
+$blue-color:rgba(125, 168, 191, 0.44);
+$blue-color-one:#476791;
+$blue-color-two:#91D7EC;
+$white-color-one:#F9F8FD;
+$grey-color:#3C3E50;
 
 
-%monseratregular-400{
-    font-family: 'Montserrat';
+%gilroyregular-400{
+    font-family: 'Gilroy-Regular';
     font-weight: 400;
 }
-%monseratmedium-500{
-    font-family: 'Montserrat';
+%gilroymedium-500{
+    font-family: 'Gilroy-Medium';
     font-weight: 500;
 }
 
-%monseratlight-300 {
-    font-family: 'Montserrat';
-    font-weight: 300;
-}
-%monseratbold-600{
-    font-family: 'Montserrat';
+%gilroysemibold-600{
+    font-family: 'Gilroy-Semibold';
     font-weight: 600;
 }
-%playfairbold-700 {
-    font-family: 'Playfair Display';
+%gilroybold-700{
+    font-family: 'Gilroy-Bold';
     font-weight: 700;
 }

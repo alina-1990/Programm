@@ -1,23 +1,54 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Gilroy-Regular";
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Regular.woff2) format(woff2), url(../fonts/Gilroy-Regular.woff) format(woff);
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Medium.woff2) format(woff2), url(../fonts/Gilroy-Medium.woff) format(woff);
+}
+@font-face {
+  font-family: "Gilroy-Semibold";
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Semibold.woff2) format(woff2), url(../fonts/Gilroy-Semibold.woff) format(woff);
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Bold.woff2) format(woff2), url(../fonts/Gilroy-Bold.woff) format(woff);
+}
 body {
   min-width: 320px;
   overflow-x: hidden;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  color: #292929;
+  font-size: 16px;
+  line-height: 13.572px;
+  color: #22253B;
 }
 
 .container {
-  padding: 0 40px;
-  max-width: 1250px;
+  max-width: 1190px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-main {
-  background-color: #F7F7F7;
+.button {
+  border-radius: 82px;
+  background: #FF501F;
+}
+
+.button__link {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 96.688%; /* 19.338px */
+  letter-spacing: -0.6px;
 }

@@ -4,20 +4,26 @@
 body {
     min-width: 320px;
     overflow-x: hidden;
-    @extend %monseratregular-400;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: $black-color;
+    @extend %gilroyregular-400;
+    font-size: 16px;
+    line-height: 13.572px ;
+    color: $default-color;
   }
 
 .container {
-    padding: 0 40px;
-    max-width:1250px;
+    max-width:1190px;
     margin: 0 auto;
+    padding: 0 15px;
   }
   
-main {
- background-color: #F7F7F7;
+.button {
+  border-radius: 82px;
+  background: $red-color;
 }
   
+.button__link {
+  color: $white-color;
+  font-size: 20px;
+  line-height: 96.688%; /* 19.338px */
+  letter-spacing: -0.6px;
+}
