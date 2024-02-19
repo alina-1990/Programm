@@ -1,4 +1,2 @@
 # Programmer
 
-ololololo
-lalala
